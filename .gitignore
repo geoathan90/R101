@@ -1,0 +1,38 @@
+# R / RStudio session files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Local environment files (may contain credentials)
+.Renviron
+.env
+.env.*
+
+# Quarto intermediate files and caches
+.quarto/
+*_cache/
+_cache/
+_freeze/
+
+# Operating-system clutter
+.DS_Store
+Thumbs.db
+
+# Keep large, raw, or confidential datasets outside Git
+data/raw/
+data/private/
+data/large/
+
+# Common large data / database formats
+*.parquet
+*.feather
+*.arrow
+*.sqlite
+*.sqlite3
+*.db
+*.rds
+*.rda
+
+# Deliberately NOT ignoring: .R, .Rproj, .qmd, .md, small example .csv,
+# or rendered .html files. Choose what to commit for each assignment.
